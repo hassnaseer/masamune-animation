@@ -1,0 +1,29 @@
+html {
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+  background-color: black;
+}
+.app-container{
+  color: white;
+  background-color: black;
+}
+#progressBarContainer {
+  position: fixed;
+  z-index: 10;
+  background: rgba(255,255,255,0.05);
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  left: 0;
+}
+
+
+#progressBar {
+  background: linear-gradient(to bottom, white, white);
+  transform-origin: top left;
+}
+
+#progressBarContainer,
+#progressBar {
+  height: 10px;
+}
